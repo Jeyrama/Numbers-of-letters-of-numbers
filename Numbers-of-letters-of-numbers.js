@@ -30,3 +30,5 @@ function numbersOfLetters(integer) {
   
   return result;
 }
+
+// or
