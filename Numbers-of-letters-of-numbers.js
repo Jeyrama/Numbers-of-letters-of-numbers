@@ -32,3 +32,15 @@ function numbersOfLetters(integer) {
 }
 
 // or
+
+const words = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
+
+function numbersOfLetters(number) {
+  let numWord = `${number}`.replace(/./g, m => words[m]);
+  const res = [numWord];
+  while (numWord != "four") {
+    numWord = `${numWord.length}`.replace(/./g, m => words[m]);
+    res.push(numWord);
+  }
+  return res;
+}
