@@ -1,6 +1,7 @@
 /*
 If we write out the digits of "60" as English words we get "sixzero"; 
-the number of letters in "sixzero" is seven. The number of letters in "seven" is five. 
+the number of letters in "sixzero" is seven. 
+The number of letters in "seven" is five. 
 The number of letters in "five" is four. 
 The number of letters in "four" is four: we have reached a stable equilibrium.
 
